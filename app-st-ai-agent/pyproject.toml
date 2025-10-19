@@ -1,0 +1,23 @@
+[project]
+name = "st-students-retrieval"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Henry"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "streamlit (>=1.47.0,<2.0.0)",
+    "langchain (>=0.3.26,<0.4.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "langchain-community (>=0.3.27,<0.4.0)",
+    "openai (>=1.97.0,<2.0.0)",
+    "tiktoken (>=0.9.0,<0.10.0)",
+    "faiss-cpu (>=1.11.0.post1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
